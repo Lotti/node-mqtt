@@ -16,7 +16,6 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.2",
-    "cfenv": "^1.0.3",
     "debug": "^2.2.0",
     "express": "^4.14.0",
     "mosca": "^2.2.0",
