@@ -1,0 +1,26 @@
+{
+  "ignore": [
+    ".git",
+    "node_modules",
+    "node_modules/**/node_modules",
+    "test",
+    "public"
+  ],
+  "verbose": true,
+  "execMap": {
+    "js": "node"
+  },
+  "watch": [
+    "api/",
+    "server/",
+    "classes/",
+    "index.js"
+  ],
+  "env": {
+    "NODE_ENV": "development",
+    "PORT": 3000,
+    "MQTT_PORT": 1883,
+    "DEBUG": "node-mqtt:*"
+  },
+  "ext": "js json yaml"
+}

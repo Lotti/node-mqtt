@@ -1,0 +1,15 @@
+{
+  "apps": [
+    {
+      "name": "node-mqtt",
+      "script": "npm -- start",
+      "watch": false,
+      "env": {
+        "NODE_ENV": "production",
+        "PORT": 3000,
+        "MQTT_PORT": 1883,
+        "DEBUG": "node-mqtt:*"
+      }
+    }
+  ]
+}
