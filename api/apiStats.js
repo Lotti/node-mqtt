@@ -3,14 +3,6 @@ const router = require('express').Router();
 const stats = require('../classes/stats.js');
 const apiMsg = require('./apiMessage.js');
 
-router.get('/stats', (req, res) => {
-    debug('GET /stats');
-    res.json(apiMsg({
-        connected_clients: stats.getConnectedClients(),
-        subscribed_topics: stats.getSubscribedTopics(),
-    }));
-});
-
 router.get('/clientStats', (req, res) => {
     debug('GET /clientStats');
     res.json(apiMsg({
