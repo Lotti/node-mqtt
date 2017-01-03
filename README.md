@@ -1,6 +1,6 @@
 # node-mqtt
 
-The server is composed by a REST API server and an MQTT broker. At this time the MQTT broker is working on WebSocket instead of a dedicated port.
+The server is composed by a REST API server and an MQTT broker. At this time the MQTT broker is reachable both from WebSocket and from his dedicated port.
 
 You can also run locally the server by using these commands.
 
